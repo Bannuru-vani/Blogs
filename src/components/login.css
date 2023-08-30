@@ -1,0 +1,66 @@
+.login_page {
+  background-color: #bae6e9;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.login-inputs {
+  background-color: white;
+  width: 400px;
+  height: 350px;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+}
+.login-input {
+  text-align: center;
+  width: 280px;
+  box-shadow: none;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-bottom: 1px solid black;
+  border-radius: 0px !important;
+}
+.login-input:hover {
+  border-radius: 4px !important;
+  border-color: "blue";
+}
+.login-button {
+  width: 200px;
+  background-color: #3f7c7d;
+  color: white;
+}
+.login-form {
+  margin-top: 43px;
+}
+.ant-input:placeholder-shown {
+  text-overflow: ellipsis;
+  text-align: start;
+}
+.myblogs {
+  display: flex;
+  justify-content: center;
+  gap: -87px;
+  /* margin-left: -302px; */
+  margin-right: 376px;
+}
+.edit {
+  padding: 7px;
+  background: #3f7c7d;
+  width: 26px;
+  height: 26px;
+  border-radius: 23px;
+}
+.delete {
+  padding: 7px;
+  background: lightcoral;
+  width: 26px;
+  height: 26px;
+  border-radius: 23px;
+}
+.createblog {
+  width: 50%;
+}
